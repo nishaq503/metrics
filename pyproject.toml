@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "metrics"
+version = "0.1.0"
+description = ""
+authors = ["Najib Ishaq <najib_ishaq@zoho.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+polars = "^0.16.11"
+numpy = "^1.24.2"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
+click = "8.0.4"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.1.1"
+flake8 = "^6.0.0"
+flake8-docstrings = "^1.7.0"
+black = "22.1.0"
+mypy = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
