@@ -12,6 +12,7 @@ numpy = "^1.24.2"
 matplotlib = "^3.7.1"
 seaborn = "^0.12.2"
 jupyterlab = "^3.6.1"
+tqdm = "^4.65.0"
 
 
 [tool.poetry.group.dev.dependencies]
